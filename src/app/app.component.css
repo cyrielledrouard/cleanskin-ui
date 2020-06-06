@@ -1,0 +1,36 @@
+.center {
+  text-align: center;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.banner {
+  width: 100%;
+  background: #feefff;
+  padding: 1px;
+}
+
+h1 {
+  color: #feefff;
+  font-family: Arial;
+}
+
+h2 {
+  color: rgba(144, 141, 145, 0.89);
+  font-family: Arial;
+  font-size: 1em;
+}
+
+a {
+  color: rgba(144, 141, 145, 0.89);
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+  height: 60px;
+}

@@ -1,0 +1,15 @@
+
+<p *ngIf="listofproducts.length == 0">Pas de produit</p>
+
+<ul class = products>
+
+  <li *ngFor="let product of listofproducts">
+
+    <a routerLink="['/products', product.id]">
+      {{product.name}} <img [src]="product.img">
+    </a>
+
+  </li>
+
+
+</ul>

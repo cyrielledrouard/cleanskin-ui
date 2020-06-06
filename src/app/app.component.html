@@ -1,0 +1,22 @@
+<div class="center">
+  <h1>
+    <a routerLink="/"> {{ title }} </a>
+  </h1>
+</div>
+
+<div class="topright">
+<img [src]="'assets/Images/Poppy.JPG'">
+</div>
+
+<div class="banner">
+  <h2>
+    <a routerLink='/products'> {{category1}} </a> <a routerLink='/brands'> {{category2}} </a> <a routerLink='/basket'> {{category3}}</a>
+  </h2>
+</div>
+
+<router-outlet></router-outlet>
+
+
+
+
+

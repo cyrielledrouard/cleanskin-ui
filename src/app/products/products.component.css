@@ -1,0 +1,17 @@
+.products li {
+  list-style-type: none;
+  background: #EEE;
+  padding: .3em;
+  margin: .3em;
+}
+
+a {
+  color: rgba(144, 141, 145, 0.89);
+  text-decoration: none;
+}
+
+img{
+  width: 120px;
+  height: 120px;
+  padding: 1px;
+}
